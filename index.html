@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Biodata</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        .biodata table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .biodata td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .portfolio {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .portfolio div {
+            width: 30%;
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#header">Header</a>
+        <a href="#biodata">Biodata</a>
+        <a href="#portfolio">Portfolio</a>
+    </nav>
+    
+    <div class="container">
+        <section id="header" class="header">
+            <div style="text-align: left;">
+                <h2>Selamat Datang di Website Saya</h2>
+                <p>Ini adalah contoh header dengan dua kolom. Kolom kiri berisi teks seperti ini.</p>
+                <a href="#">Pelajari Lebih Lanjut</a>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/600x400" alt="Profile Image">
+            </div>
+        </section>
+        
+        <section id="biodata" class="biodata">
+            <h2>About Me</h2>
+            <p>A brief introduction about myself</p>
+            <table>
+                <tr>
+                    <td>Alpin Lubis</td>
+                    <td>Education</td>
+                    <td>Mahasiswa</td>
+                </tr>
+                <tr>
+                    <td>Contact</td>
+                    <td>Music</td>
+                    <td>Tangerang-Indonesia</td>
+                </tr>
+            </table>
+        </section>
+        
+        <section id="portfolio" class="portfolio">
+            <h2>Portofolio</h2>
+            <div>
+                <img src="https://via.placeholder.com/350x200" alt="Proyek 1">
+                <p>Proyek 1<br>Deskripsi proyek 1.</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/350x200" alt="Proyek 2">
+                <p>Proyek 2<br>Deskripsi proyek 2.</p>
+            </div>
+            <div>
+                <img src="https://via.placeholder.com/350x200" alt="Proyek 3">
+                <p>Proyek 3<br>Deskripsi proyek 3.</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
